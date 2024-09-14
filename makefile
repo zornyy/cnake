@@ -24,4 +24,4 @@ controls.o: src/controls.c src/controls.h
 	$(CC) -c src/controls.c $(CFLAGS)
 
 clean:
-	rm -f *.o chip8
+	rm -f *.o cnake
